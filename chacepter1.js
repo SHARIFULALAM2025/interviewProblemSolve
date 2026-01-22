@@ -63,3 +63,23 @@ function EveryPersonGet(x,taka) {
     
 }
 console.log(EveryPersonGet(8,450));
+// problem 7: how many avarage of those number 20, 25, 30, 91
+function AvarageNumber(...arr) {
+    const countNumber=arr.length;
+    let sum =0;
+    for (const element of arr) {
+       sum=sum+element
+        
+    }
+  const avarage=sum/countNumber;
+  return avarage
+    
+}
+console.log(AvarageNumber(20, 25, 30, 91));
+//problem 8:suppose a circule redius is 7 and pi=3.1416 find out area of the circle?
+function circleArea(r,pi) {
+    return pi*r*r;
+    
+}
+console.log(circleArea(7,3.1416));
+
